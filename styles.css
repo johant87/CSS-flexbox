@@ -77,3 +77,13 @@ body {
     border-bottom: none;
   }
 }
+
+.footer {
+  background: #FCC04E;
+  margin-top: 30px;
+  text-align: center;
+  height: 300px;
+  font-weight: normal;
+  font-size: 3em;
+  line-height: 300px;
+}
