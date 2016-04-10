@@ -17,7 +17,7 @@ body {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-flow: row wrap;
+  -webkit-flex-flow: wrap;
   justify-content: space-around;
 }
 
@@ -60,15 +60,37 @@ body {
 
 .item {
   background: #02C3E2;
-   padding: 0;
-   width: 250px;
-   height: 300px;
+   padding: 5px;
+   margin-left: 5px;
+	 margin-top: 5px;
+   flex: 1 0 200px;
    margin-top: 10px;
    line-height: 300px;
    font-weight: normal;
    font-size: 3em;
    text-align: center;
 }
+
+/*@media all and (max-width: 1400px) {
+  .item {
+     width: 200px;
+     height: 250px;
+  }
+}
+@media all and (max-width: 1255px) {
+  .item {
+     width: 150px;
+     height: 200px;
+  }
+}
+
+
+@media all and (max-width: 800px) {
+  .item {
+     width: 150px;
+     height: 200px;
+  }
+}*/
 
 
 .navigation {
